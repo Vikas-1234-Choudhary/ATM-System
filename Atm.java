@@ -159,16 +159,16 @@ class Atm
 	   Option q=new Option();     // object creation for option class//
 	   // if statement cheak customer number and pin right or not// 
 	    
-		if(x==customer_number && y==customer_pin)      
-                {
+	     if(x==customer_number && y==customer_pin)      
+             {
 	           q.input();              //input method calling//
-		} 
-	        else
-                {
+             } 
+	     else
+             {
                    System.out.println("\n Wrong Customer Number and Pin Number! \n");		   
-	        }
+	     }
          } while(true); 
-     }
+      }
    }
 
 
