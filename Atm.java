@@ -1,9 +1,9 @@
 import java.util.*;    //packages//
-class Option
+class Account
 { 
   static double cheaking_acc_bal=0.00;    //static variable declaration & initialization //
   static double saving_acc_bal=0.00;
-  int input()              //method define//
+  int option()              //method define//
   {
      Scanner s= new Scanner(System.in);   //object creation for scanner class// 
      // do-while loop use for statement repetation//
@@ -156,12 +156,12 @@ class Atm
 	   customer_number=s.nextDouble();      //Run time value enter//
            System.out.print(" Enter Your Pin Number : "); 
 	   customer_pin=s.nextDouble();
-	   Option q=new Option();     // object creation for option class//
+	   Account q=new Account();     // object creation for Account class//
 	   // if statement cheak customer number and pin right or not// 
 	    
 	     if(x==customer_number && y==customer_pin)      
              {
-	           q.input();              //input method calling//
+	           q.option();              //option method calling//
              } 
 	     else
              {
